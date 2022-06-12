@@ -1,0 +1,28 @@
+body{
+   background-color: lawngreen; 
+}
+h1{
+    color:rgb(0, 102, 255);
+    background-color: rgba(245, 245, 245, 0.788);
+}
+#show_sketch{
+    float: right;
+    margin-top: 3px;
+}
+canvas{
+    border:5px solid rgb(78, 8, 243);
+    border-radius:10px;
+    margin-top: 150px;
+   animation-name:v;
+   animation-duration:5s;
+   animation-iteration-count: infinite;
+}
+@keyframes v{
+    from{box-shadow: 2px 1px 70px rgb(252, 250, 250);}
+to{box-shadow: 2px 1px 70px rgb(20, 20, 20);}
+}
+p{
+    padding-top: 10px;
+    font-size:25px;
+
+}
